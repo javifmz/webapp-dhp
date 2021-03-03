@@ -1,6 +1,6 @@
 # Docker Webapp image
 
-Minimal docker image for webapps with an HTML5 front-end (web) and a PHP back-end (API). Current version is `0.1.0`.
+Minimal docker image for webapps with an HTML5 front-end (web) and a PHP back-end (API). Current version is `0.1.1`.
 
 Main directories:
 - `/www/api`: Back-end source files

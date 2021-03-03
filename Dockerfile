@@ -2,7 +2,7 @@ FROM alpine:3.11
 RUN apk update && apk upgrade && \
     echo @3.11 http://nl.alpinelinux.org/alpine/v3.11/community >> /etc/apk/repositories && \
     echo @3.11 http://nl.alpinelinux.org/alpine/v3.11/main >> /etc/apk/repositories && \
-    apk --no-cache add nginx nano less curl openjdk8 \
+    apk --no-cache add nginx nano less curl \
         php7 php7-fpm php7-opcache php7-json php7-pdo php7-pdo_mysql php-iconv php-mbstring \
         php7-dom php7-ctype php7-curl php7-gd php7-intl php7-mcrypt php7-mysqlnd php7-posix \
         php7-session php7-tidy php7-xml php7-zip
